@@ -1,0 +1,24 @@
+# Python
+backend/venv/
+backend/__pycache__/
+**/__pycache__/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Variables de entorno
+.env
+.env.local
+
+# Archivos subidos por usuarios (fotos, adjuntos) — no se versionan
+backend/uploads/**
+!backend/uploads/**/
+!backend/uploads/**/.gitkeep
+
+# Editor
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db

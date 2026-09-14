@@ -1,0 +1,26 @@
+@import 'tailwindcss';
+
+:root {
+  /* Brand Colors */
+  --color-primary: #047857;
+  --color-primary-light: #10b981;
+  --color-secondary: #0f766e;
+
+  /* Neutral Colors */
+  --color-dark: #0f172a;
+  --color-gray: #64748b;
+  --color-light: #f8fafc;
+
+  /* Border */
+  --color-border: #e2e8f0;
+
+  /* Radius */
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background: #ffffff;
+  color: #0f172a;
+}
